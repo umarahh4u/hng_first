@@ -33,3 +33,5 @@ const date = new Date().toISOString();
 
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
+
+module.export = app;
