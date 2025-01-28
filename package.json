@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon app.js",
-    "start:prod": "NODE_ENV=production nodemon app.js"
+    "dev": "nodemon index.js",
+    "start:prod": "NODE_ENV=production nodemon index.js"
   },
   "author": "umarfse",
   "license": "ISC",
