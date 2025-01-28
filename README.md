@@ -41,9 +41,9 @@ If the email query parameter is provided, the response will reflect the provided
 The response will also include the current date and time in ISO format (current_datetime), and a link to the GitHub profile (github_url).
 
 ### Usage Example 
-Example Response:
+## Example Response:
 
-json Copy
+
 {
   "email": "email@gmail.com",
   "current_datetime": "2025-01-28T10:35:20.123Z",
@@ -51,7 +51,6 @@ json Copy
 }
 If a custom email is passed in the query parameter:
 
-json Copy
 {
   "email": "user@example.com",
   "current_datetime": "2025-01-28T10:35:20.123Z",
