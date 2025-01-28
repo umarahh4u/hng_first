@@ -21,7 +21,7 @@ app.listen(port, () => {
 
 
 app.get("/api/v1/user", (req, res) => {
-const {email} = req.body;
+const email = req.body.email ? req.body.email : "email@gmail.com" ; 
 const date = new Date().toISOString();
 
   res.status(200).json({
