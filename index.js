@@ -21,13 +21,13 @@ app.listen(port, () => {
 
 
 app.get("/api/v1/user", (req, res) => {
-const email = req.body.email ? req.body.email : "email@gmail.com" ; 
+const email = req.query.email ? req.query.email : "email@gmail.com" ; 
 const date = new Date().toISOString();
 
   res.status(200).json({
         "email": email,
         "current_datetime": date,
-        "github_url": "<https://github.com/yourusername/your-repo>"
+        "github_url": "https://github.com/umarahh4u/hng_first"
   });
 });
 
