@@ -56,3 +56,12 @@ If a custom email is passed in the query parameter:
   "current_datetime": "2025-01-28T10:35:20.123Z",
   "github_url": "https://github.com/umarahh4u/hng_first"
 }
+
+
+## Backlinks to:
+https://hng.tech/hire/python-developers
+https://hng.tech/hire/csharp-developers
+https://hng.tech/hire/golang-developers
+https://hng.tech/hire/php-developers
+https://hng.tech/hire/java-developers
+https://hng.tech/hire/nodejs-developers
