@@ -1,5 +1,5 @@
 const express = require("express");
-const cors = require("cors")
+const cors = require("cors");
 
 require("dotenv").config();
 
@@ -18,13 +18,13 @@ app.listen(port, () => {
 
 // server.listen
 app.get("/user", (req, res) => {
-const email = req.query.email || "email@gmail.com"; 
-const date = new Date().toISOString().split('.')[0] + 'Z';
+  const email = req.query.email || "email@gmail.com";
+  const date = new Date().toISOString().split(".")[0] + "Z";
 
   res.status(200).json({
-        "email": email,
-        "current_datetime": date,
-        "github_url": "https://github.com/umarahh4u/hng_first"
+    email: email,
+    current_datetime: date,
+    github_url: "https://github.com/umarahh4u/hng_first",
   });
 });
 
