@@ -9,8 +9,8 @@ const app = express();
 app.use(cors());
 
 // body parser
-app.use(express.json({ limit: "5kb" }));
-app.use(express.urlencoded({ extended: true, limit: "5kb" }));
+app.use(express.json());
+// app.use(express.urlencoded({ extended: true, limit: "5kb" }));
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
@@ -19,7 +19,7 @@ app.listen(port, () => {
 
 // server.listen
 app.get("/api/v1/user", (req, res) => {
-const email = req.query.email || "email@gmail.com" ; 
+const email = req.query.email || "email@gmail.com"; 
 const date = new Date().toISOString().split('.')[0] + 'Z';
 
   res.status(200).json({
