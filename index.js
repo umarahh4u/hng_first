@@ -17,7 +17,7 @@ app.listen(port, () => {
 });
 
 // server.listen
-app.get("/api/v1/user", (req, res) => {
+app.get("/user", (req, res) => {
 const email = req.query.email || "email@gmail.com"; 
 const date = new Date().toISOString().split('.')[0] + 'Z';
 
